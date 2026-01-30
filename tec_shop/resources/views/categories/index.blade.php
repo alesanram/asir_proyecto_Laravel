@@ -52,6 +52,6 @@
         </table>
 
         <div class="d-flex justify-content-center mt-4">
-            {{ $products->links() }}
+            {{ $categories->links() }}
         </div>
 @endsection
