@@ -17,7 +17,7 @@ apt-get install -y software-properties-common >/dev/null 2>&1
 add-apt-repository ppa:ondrej/php -y >/dev/null 2>&1
 apt-get update -y >/dev/null 2>&1
 apt-get install -y php8.2 php8.2-cli php8.2-common php8.2-mysql \
-php8.2-xml php8.2-mbstring php8.2-curl php8.2-zip php8.2-gd unzip curl >/dev/null 2>&1
+php8.2-xml php8.2-mbstring php8.2-bcmath php8.2-curl php8.2-zip php8.2-gd unzip curl >/dev/null 2>&1
 
 echo "📦 Copiando proyecto Laravel..."
 rm -rf $APP_DIR
