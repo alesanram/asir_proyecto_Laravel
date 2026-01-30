@@ -1,6 +1,6 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "Tec_Shop",
+    "name": "asanram/tecshop",
     "type": "project",
     "description": "Proyecto laravel curso Asir 2025_2026",
     "keywords": ["laravel", "framework"],
