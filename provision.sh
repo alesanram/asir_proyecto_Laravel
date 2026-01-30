@@ -3,7 +3,7 @@ set -e
 
 APP_DIR="/var/www/laravel"
 NEW_USER="usuario"
-NEW_PASSWORD="usuario"
+NEW_PASSWORD="qwerty"
 
 echo "🔄 Actualizando sistema..."
 apt-get update -y >/dev/null 2>&1 
